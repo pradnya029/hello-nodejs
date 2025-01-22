@@ -1,13 +1,11 @@
 // Existing code
 console.log("Hello, Node.js!");
 
-// New function to greet a user
-function greetUser(name) {
-    return `Hello, ${name}! Welcome to Node.js.`;
+// New function to display the current date and time
+function displayDateTime() {
+    const now = new Date();
+    return `Current Date and Time: ${now.toLocaleString()}`;
 }
 
 // Example usage of the new function
-const userName = "Pradnya";
-console.log(greetUser(userName));
-
-
+console.log(displayDateTime());
